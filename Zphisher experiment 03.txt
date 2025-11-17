@@ -1,0 +1,27 @@
+Objective:
+To understand social engineering techniques by simulating a phishing attack in a controlled
+lab environment using the Social Engineering Toolkit (SET) in Kali Linux.
+
+Theory:
+Phishing is a social engineering attack where attackers trick users into revealing
+confidential information (such as usernames, passwords, or financial data) by posing as a
+trusted entity, often via fake websites or emails.
+Social Engineering Toolkit (SET) is a framework in Kali Linux designed for penetration
+testing and simulating social engineering attacks for educational purposes.
+Types of Phishing Simulations in SET:
+- Website Cloner: Duplicates a real login page to capture credentials.
+- Credential Harvester: Captures usernames and passwords entered on a phishing page.
+- Email Phishing: Sends a crafted phishing email with malicious links.
+
+
+Commands : 
+
+Sudo apt update
+git clone https://github.com/htr-tech/zphisher.git
+ls
+cd zphisher
+bash zphisher.sh
+
+
+
+
