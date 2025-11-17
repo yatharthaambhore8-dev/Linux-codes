@@ -1,0 +1,16 @@
+Experiment No. 4
+ Detecting ARP Spoofing & Understanding MITM Attacks
+
+Aim:
+Understand ARP, detect ARP spoofing, and simulate defensive steps against Man-in-the-Middle (MITM) attacks in a safe, controlled environment.
+
+
+Command for ARP : 
+
+Sudo su 
+ip -br a 
+ip neigh show 
+arp 
+sudo tcpdump -n -e -i eth0 arp 
+Sudo wireshark 
+Arp
