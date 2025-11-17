@@ -1,0 +1,16 @@
+Objective:
+To learn how to scan a network using Nmap, identify live hosts, open ports, and detect possible vulnerabilities. This helps us understand the attack surface of a system.
+
+Theory:
+Nmap (Network Mapper) is a powerful tool for scanning networks. It detects active devices, services running on different ports, and possible vulnerabilities. Attackers use it for reconnaissance, while security professionals use it for defense and auditing.
+
+
+Command for Nmap : 
+
+Sudo apt update 
+Sudo apt install Nmap 
+nmap --version 
+nmap 192.168.0.1
+nmap -sV 192.168.0.1
+nmap -sP 192.168.0.1
+nmap -p 22,44,203 192.168.0.1
