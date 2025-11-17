@@ -1,0 +1,52 @@
+Step 1: Download and Install VirtualBox
+•	Open your browser and visit https://www.virtualbox.org/wiki/Downloads.
+•	Download VirtualBox for Windows hosts.
+•	Run the installer.
+•	Keep default settings.
+•	Allow network features and drivers when prompted.
+
+Step 2: Download Kali Linux ISO
+•	Visit https://www.kali.org/get-kali/.
+•	Download the Kali Linux 64-bit ISO installer.
+•	Save it to an easy-to-access folder.
+
+Step 3: Create a New Virtual Machine (VM)
+•	Open VirtualBox and click "New."
+•	Give a name like "KaliLinux."
+•	Set Type to Linux.
+•	Set Version to Debian (64-bit).
+•	Allocate RAM: 2-4 GB (4096 MB recommended).
+•	Create a virtual hard disk: 20-40 GB recommended.
+
+Step 4: Attach Kali Linux ISO to VM
+•	Select the Kali Linux VM in VirtualBox.
+•	Go to Settings → Storage → Select "Empty."
+•	Click the disk icon and choose the Kali ISO you downloaded.
+•	Click OK.
+
+Step 5: Start the Virtual Machine and Install Kali Linux
+•	Click Start to boot the VM from the ISO.
+•	Select "Graphical Install."
+•	Choose your language, region, and keyboard layout.
+•	Configure network (use NAT for internet access).
+•	Set username, password, and hostname.
+•	Partition disk (select Guided – use entire disk for simplicity).
+•	Complete installation and reboot.
+
+Step 6: Remove ISO After Installation
+•	After reboot, go to Devices → Optical Drives → Remove disk from virtual drive.
+•	Reboot VM to ensure it boots from the virtual hard disk.
+
+Step 7: Update Kali Linux
+•	Open Terminal inside Kali.
+•	Run:
+sudo apt update && sudo apt upgrade -y
+•	This ensures all system packages and penetration testing tools are up to date.
+________________________________________
+
+Outcome
+•	Kali Linux is now installed on VirtualBox.
+•	You have a secure, isolated virtual lab to safely practice penetration testing and ethical hacking.
+
+Conclusion
+Using VirtualBox to run Kali Linux allows safe exploration of cybersecurity tools without affecting your main OS. Proper setup with updates ensures a smooth, effective penetration testing environment for learning and projects.
