@@ -1,0 +1,55 @@
+1. Basic Linux Commands:
+Command Description : 
+
+pwd  - Shows current working directory
+ls -  Lists files and directories
+cd  - Changes the directory
+clear - Clears the terminal
+whoami -  Displays the current user
+
+2. File Management Commands:
+Command Description : 
+
+touch file.txt  - Creates a new empty file
+mkdir folder -  Creates a new directory
+cp file - 1 file2 Copies file1 to file2
+mv - old new Moves or renames a file/directory
+rm file.txt -  Deletes a file
+rmdir dir  - Deletes an empty directory
+
+
+3. System Information Commands:
+Command Description : 
+
+uname -a  - Shows kernel and system info
+hostname - Displays the system’s hostname
+uptime -  Shows how long the system has been up
+top - Displays live system processes
+
+
+
+
+4. Networking Commands:
+Command Description : 
+
+ifconfig / ip  - a Shows IP address and interfaces
+Ping -  check network connectivity
+Traceroute - Traces route to a network host
+Nslookup -  DNS lookup of a domain name
+
+
+5. Process Management Commands:
+Command Description : 
+
+ps  - Displays running processes
+ps aux  - Detailed view of all processes
+kill -  Terminates process with given PID
+
+
+6. Compression Commands:
+Command Description : 
+
+gzip file.txt - Compresses file to file.txt.gz
+gunzip file.txt.gz -  Decompresses file.txt.gz
+zip file.zip file.txt  - Zips the file
+unzip file.zip  - Extracts a zip file
