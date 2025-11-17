@@ -1,0 +1,28 @@
+Hashing is one-way, meaning the original password cannot be directly recovered.
+
+To check the strength of passwords and to perform security auditing, tools like John the Ripper (JtR) are used.
+John the Ripper is an open-source password-cracking tool.
+
+CONCLUSION (Simple & Easy Language)
+
+In this practical, we learned how Linux saves password hashes securely in the /etc/shadow file and how these hashes can be analyzed using John the Ripper.
+By performing password cracking using a wordlist, we observed that:
+
+Weak or common passwords can be cracked easily.
+
+Strong passwords are difficult or impossible to crack using simple attacks.
+
+
+
+Commands for John The Ripper : 
+
+sudo apt install john
+John 
+echo 'a' | md5sum
+echo ' Hash value' > hash.txt 
+
+john --format=raw-md5 --incremental hash.txt
+
+john --format=raw-md5  --wordlist=/home/yathartha/all-seclists.txt hash.txt
+
+cat hash.txt
