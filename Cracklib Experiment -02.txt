@@ -1,0 +1,23 @@
+Objective:
+To understand the importance of strong passwords and evaluate different types of passwords
+using tools like cracklib-check, pwscore, and zxcvbn on Kali Linux.
+
+Theory:
+What is Password Strength?
+Password strength is a measure of how resistant a password is to guessing and brute-force
+attacks. Strong passwords are:
+•	At least 12–16 characters long
+•	Contain a mix of uppercase, lowercase, numbers, and special characters
+•	Avoid common words, names, or predictable patterns
+•	Not reused from other accounts
+
+Commands : 
+Sudo apt update 
+Git clone https://github.com/cracklib/cracklib.git 
+Sudo apt install nodejs npm 
+Sudo npm install -g zxcvbn
+
+echo " Yathartha2727" | cracklib- check 
+
+echo " @Y#23&" | pwscore
+zxcvbn --user-input "yathartha@2713"
